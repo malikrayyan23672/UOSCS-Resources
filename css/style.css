@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.under-line::after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 20%;
+    background-color: rgb(233, 233, 233);
+    bottom: -10px;
+    border-radius: 1rem;
+    left: 0;
+    right: 0;
+    display: flex;
+    margin: 0 auto;
+}
